@@ -37,10 +37,17 @@
                     </p>
                 </article>
             </section>
+            <form onsubmit="submitValue()">
+                <input type="email" name="email">
+                <button>En-viado</button>
+            </form>
         </div>
         <script>
             function openHelloWorld () {
                 alert(document.getElementById('teste').innerHTML = "Oi sumida, rs");
+            }
+            function submitValue () {
+                alert('Dados en-viados');
             }
         </script>
     </body>
