@@ -31,10 +31,18 @@
                     <p>
                         Lorem Ipsum passage and generate your own text using any number of characters, words, sentences or paragraphs. Commonly used as placeholder text in the graphic and print industries, Lorem Ipsum's origins extend far back to a scrambled Latin passage from Cicero in the middle ages.
                     </p>
-                    <button disabled="disabled" id="btn-images">Galeria</button>
+                    <button id="btn-images" onclick="openHelloWorld()">Galeria</button>
+                    <p id="teste">
+
+                    </p>
                 </article>
             </section>
         </div>
+        <script>
+            function openHelloWorld () {
+                alert(document.getElementById('teste').innerHTML = "Oi sumida, rs");
+            }
+        </script>
     </body>
     <footer>
 
