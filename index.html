@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="uft-8" />
+        <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
         <title>
             Curso JavaScript SENAI
         </title>
@@ -9,20 +10,31 @@
     <!-- para 'ouvir' a página !-->
     <link rel="stylesheet" type="text/css" href="./style.css">
     <body>
-        <!-- ao inves de usar uma div, eu uso o aside ara sinalizar que e o conteudo lateral do site !-->
-        <!-- nao e legal repetir id, mas class vc pode usar em outras tags !-->
-        <!-- no css, para referenciar a classe, usar um ponto: .nome-classe {} !-->
-        <!-- para id, usar "#" !-->
-        <aside class="side-menu">
-            <div>
-                <img src="" alt="" id="img-esporte">
-                <span>Esporte</span>
-            </div>
-            <div>
-                <img src="" alt="" id="img-lazer">
-                <span>Lazer</span>
-            </div>
-        </aside>
+        <div class="content-main">
+            <!-- ao inves de usar uma div, eu uso o aside ara sinalizar que e o conteudo lateral do site !-->
+            <!-- nao e legal repetir id, mas class vc pode usar em outras tags !-->
+            <!-- no css, para referenciar a classe, usar um ponto: .nome-classe {} !-->
+            <!-- para id, usar "#" !-->
+            <aside class="side-menu">
+                <div class="content-menu">
+                    <img src="./img/soccer-ball-variant 24.png" alt="" id="img-esporte">
+                    <span class="item-menu">Esporte</span>
+                </div>
+                <div class="content-menu">
+                    <img src="./img/game-console 24.png" alt="" id="img-lazer">
+                    <span class="item-menu">Lazer</span>
+                </div>
+            </aside>
+            <section class="sport">
+                <article class="content-sport">
+                    <h1>Esportes</h1>
+                    <p>
+                        Lorem Ipsum passage and generate your own text using any number of characters, words, sentences or paragraphs. Commonly used as placeholder text in the graphic and print industries, Lorem Ipsum's origins extend far back to a scrambled Latin passage from Cicero in the middle ages.
+                    </p>
+                    <button disabled="disabled" id="btn-images">Galeria</button>
+                </article>
+            </section>
+        </div>
     </body>
     <footer>
 

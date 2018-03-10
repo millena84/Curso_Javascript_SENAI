@@ -3,7 +3,41 @@
     margin: 0;
 }
 .side-menu {
-    width: 60px;
+    width: 20%;
     height: 100vH;
     background-color: darkviolet;
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
 }
+.content-menu {
+    padding-top: 15px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.item-menu:hover {
+    color: #ccc;
+    font-size: 20px;
+}
+.content-main {
+    display: flex;
+    font-family: 'Coming Soon', cursive;
+}
+.sport {
+
+}
+.content-sport {
+    width: 50%;
+    margin-left: 50px;
+}
+
+#btn-images {
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+ }
