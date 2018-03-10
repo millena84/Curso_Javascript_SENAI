@@ -1,0 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.side-menu {
+    width: 60px;
+    height: 100vH;
+    background-color: darkviolet;
+}
